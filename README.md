@@ -11,7 +11,7 @@ Ps.: Ich habe Responsive nicht beachtet!
 I have created a page about imdb with the omdb-api.
 Also mark your personal favorite movies, series or games!
 The api key was created with a temp mail - so do what you want. ┗|｀O′|┛
-Ps: I did not pay attention to Responsive!
+Ps: I did not pay attention to responsive!
 
 
 ## Erstellt wurde es mit:
