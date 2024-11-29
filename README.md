@@ -4,6 +4,15 @@
 Ich habe eine Seite über imdb mit der omdb-api erstellt.
 Markieren Sie auch Ihre persönlichen Lieblingsfilme, -serien oder -spiele!
 Der Api-Schlüssel wurde mit einer Temp-Mail erstellt - also macht was ihr wollt. ┗|｀O′|┛
+Ps.: Ich habe Responsive nicht beachtet!
+
+---------------------------------------
+
+I have created a page about imdb with the omdb-api.
+Also mark your personal favorite movies, series or games!
+The api key was created with a temp mail - so do what you want. ┗|｀O′|┛
+Ps: I did not pay attention to Responsive!
+
 
 ## Erstellt wurde es mit:
 
