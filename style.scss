@@ -330,6 +330,7 @@ body {
                             object-position: top;
                             border-top-left-radius: 10px;
                             border-top-right-radius: 10px;
+                            transition: all .4s ease-in-out;
 
                         }
                     }
@@ -368,6 +369,8 @@ body {
                             font-size: 14px;
                             hyphens: auto;
                             height: 25%;
+                            transition: all .4s ease-in-out;
+
 
                             display: -webkit-box;
                             /* Flexbox für Text */
@@ -386,6 +389,7 @@ body {
                             color: #dfa200;
                             font-weight: 600;
                             height: 25%;
+                            transition: all .4s ease-in-out;
 
                             p {
                                 padding: 0;
@@ -404,6 +408,7 @@ body {
                             right: 20px;
                             font-size: 15px;
                             color: #da3b3b;
+                            transition: all .4s ease-in-out;
                             cursor: pointer;
 
                             &.active {
@@ -420,6 +425,26 @@ body {
                         box-shadow: 0px 0px 11px rgb(54, 54, 54);
                         transform: scale(1.015);
                         transition: all .1s ease-in-out;
+
+                        .movimg img {
+                            height: 300px;
+                        }
+
+                        .movplot {
+                            font-size: 12px;
+                            -webkit-line-clamp: 2;
+                        }
+
+                        .movscore {
+                            font-size: 11px;
+                            bottom: -80px;
+                        }
+
+                        .movbadgefav {
+                            font-size: 11px;
+                        }
+
+
                     }
                 }
 
