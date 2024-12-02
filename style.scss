@@ -2,29 +2,15 @@ i {
     font-style: normal;
 }
 
-
 body {
     margin: 0;
     padding: 0;
     background-color: white;
 
-    width: 100%;
-    height: auto;
-    overflow: auto;
-    /* Erlaubt das Scrollen */
-
-    /* Scrollbars ausblenden (funktioniert für Webkit-basierte Browser) */
-    &::-webkit-scrollbar {
-        display: none;
-    }
-
-    /* Für Firefox (Scrollbar verstecken, aber dennoch scrollen) */
-    scrollbar-width: none;
 }
 
 
 .header {
-    // background-color: brown;
     background-color: #3a3a3a;
     position: relative;
     display: flex;
@@ -171,6 +157,10 @@ body {
     width: 25%;
     padding-right: 10px;
 
+    .reslogin {
+        // display: none;
+    }
+
     .input-group {
 
         .portal {
@@ -217,7 +207,6 @@ body {
             color: white;
             font-weight: 500;
             font-size: 19px;
-            // inline-size: 300px;
 
 
             p {
@@ -297,8 +286,7 @@ body {
             }
 
             .movie,
-            .favmovie,
-            .movie_selected {
+            .favmovie {
 
 
                 gap: 35px;
@@ -495,16 +483,3 @@ body {
         }
     }
 }
-
-// .test {
-//     font-size: medium;
-//     transition: all 0.3s ease-in-out;
-//     background-color: grey;
-//     border-radius: 12px;
-//     padding: 20px;
-//     transform-origin: center;
-
-//     &.active {
-//         font-size: xx-large;
-//         transform: scale(1.7) rotate(450deg) translateX(40vw);
-//     }

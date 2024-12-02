@@ -42,6 +42,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
                 checkreg: false,
                 logname: "",
                 logpw: "",
+                reslogin: false,
                 regname: "",
                 regpw: "",
                 regpw_2: "",

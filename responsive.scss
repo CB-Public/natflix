@@ -1,0 +1,201 @@
+/* RESPONSIVE AREA */
+
+@media only screen and (min-width: 320px) and (max-width: 424px) {
+
+    body {
+        background-color: #a59d2a44;
+    }
+
+    .header {
+        .space {
+            .regbutton {
+                button {
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .titlenameheader {
+
+            font-size: 30px;
+            letter-spacing: 3px;
+        }
+
+        .loginsection {
+
+            .relogin {
+                height: 50px;
+                width: 50px;
+            }
+
+            .formlogin .active {
+                position: absolute;
+                width: 50%;
+                padding: 20px;
+                margin-top: 70px;
+                margin-left: 25%;
+                margin-right: 25%;
+                height: 600px;
+                background-color: white;
+                border: 1px solid rgb(176, 176, 176);
+                border-radius: 15px;
+                box-shadow: 10px 8px 10px rgb(37, 14, 14, 0.7);
+                transition: all .5s ease-in-out;
+                z-index: 1;
+                opacity: 0;
+                visibility: hidden;
+                transform: translateY(-100%);
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                row-gap: 15px;
+
+                h3 {
+                    margin: 0 0 15px;
+                    padding: 0;
+                    color: #333;
+                    text-align: center;
+                    text-transform: uppercase;
+                }
+
+                .mb-3 {
+                    background-color: #fff;
+                    padding: 20px;
+                    border-radius: 0px;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                    width: 80%;
+                    height: 20%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .mb-3 input {
+                    width: 100%;
+                    padding: 10px 0;
+                    font-size: 16px;
+                    color: #333;
+                    margin-bottom: 0px;
+                    border: none;
+                    border-radius: 0 !important;
+                    border-bottom: 2px solid #333;
+                    outline: none;
+                    background: transparent;
+                }
+            }
+        }
+    }
+
+
+    .section_all .content .movies .movie,
+    .section_all .content .favmovies .favmovie {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: repeat(var(--columns, 1), minmax(0, 1fr));
+    }
+
+
+}
+
+
+
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+
+    body {
+        background-color: rgba(0, 255, 123, 0.143);
+    }
+
+    .header {
+        .space {
+            .regbutton {
+                button {
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .titlenameheader {
+
+            font-size: 45px;
+            letter-spacing: 6px;
+        }
+    }
+
+    .section_all .content .movies .movie,
+    .section_all .content .favmovies .favmovie {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: repeat(var(--columns, 1), minmax(0, 1fr));
+    }
+
+
+}
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    body {
+        background-color: rgba(0, 21, 128, 0.284);
+    }
+
+    .header {
+        .space {
+            .regbutton {
+                button {
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .titlenameheader {
+
+            font-size: 50px;
+            letter-spacing: 8px;
+        }
+    }
+
+    .section_all .content .movies .movie,
+    .section_all .content .favmovies .favmovie {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: repeat(var(--columns, 2), minmax(0, 1fr));
+    }
+}
+
+
+
+
+@media only screen and (min-width: 1023px) and (max-width: 1439px) {
+
+    body {
+        background-color: rgba(128, 0, 111, 0.284);
+    }
+
+    .header {
+        .space {
+            .regbutton {
+                button {
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .titlenameheader {
+
+            // font-size: 30px;
+            // letter-spacing: 3px;
+        }
+    }
+
+    .section_all .content .movies .movie,
+    .section_all .content .favmovies .favmovie {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: repeat(var(--columns, 3), minmax(0, 1fr));
+    }
+}
