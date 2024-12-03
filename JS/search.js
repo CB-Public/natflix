@@ -54,6 +54,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
                 date1: "",
                 date2: "",
                 resultDate: "",
+                display: window.innerWidth,
             }
         },
 
@@ -367,6 +368,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
                 this.currentUserActive = null
                 this.warnOfNotLoggedIn = ""
                 this.favmovtab = [];
+                this.reslogin = false
             },
 
 
@@ -383,8 +385,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
                 let numberMatches = this.regpw.match(numbers)
                 let numberCount = numberMatches ? numberMatches.length : 0
-
-                let checkpw = []
 
                 if (this.regname == "") {
                     this.regwarning = "Der Username darf nicht leer sein!"
@@ -460,13 +460,22 @@ document.addEventListener("DOMContentLoaded", function (event) {
                         })
                 }
 
-            }
+            },
 
+            updateDisplaySize() {
+                this.display = window.innerWidth;
+            }
         },
+
 
         mounted() {
             this.fetchDataFromDatabase();
             this.fetchMoviesAPI();
+            window.addEventListener('resize', this.updateDisplaySize);
+        },
+
+        beforeDestroy() {
+            window.removeEventListener('resize', this.updateDisplaySize);
         },
 
     })
