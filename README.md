@@ -1,4 +1,3 @@
-@ -4,29 +4,29 @@
 Ich habe eine Seite über imdb mit der omdb-api erstellt.
 Markieren Sie auch Ihre persönlichen Lieblingsfilme, -serien oder -spiele!
 DB in MySql (f.e.) als "movieAPI" importieren.
