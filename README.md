@@ -1,7 +1,7 @@
 
 # Praktikum - My Movies 📺
 
-Es soll eine WebApp entwickelt werden mit welcher man seine lieblingsfilme verwalten kann.
+Es soll eine WebApp entwickelt werden mit welcher man seine Lieblingsfilme verwalten kann.
 
 	* Server PHP
 	* Anbindung, OMDB API
